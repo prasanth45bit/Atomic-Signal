@@ -1,0 +1,97 @@
+.performance-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.performance-title {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.gauge-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.gauge {
+    width: 120px;
+    height: 60px;
+    background: conic-gradient(
+        red, 
+        orange, 
+        yellow, 
+        yellowgreen, 
+        green
+    );
+    border-radius: 120px 120px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.needle {
+    width: 4px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    transform-origin: bottom;
+}
+
+.overall-text {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.status-text {
+    background-color: #f0f0f0;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 4px;
+}
+
+.performance-matrix {
+    width: 100%;
+}
+
+.matrix-row {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.metric-label {
+    width: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.metric-name {
+    flex: 1;
+    color: #888;
+    margin-left: 8px;
+}
+
+.dots-container {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot.green { background-color: green; }
+.dot.yellow { background-color: yellow; }
+.dot.orange { background-color: orange; }
+.dot.red { background-color: red; }
+.dot.gray { background-color: lightgray; }

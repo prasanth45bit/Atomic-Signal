@@ -1,0 +1,18 @@
+.Loginpage
+{
+    height: 100%;
+    width: 100%;
+    background-color: #EFEEFB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.back-image
+{
+    height: 25%;
+    width: 100%;
+    position: absolute;
+}

@@ -1,0 +1,56 @@
+.feedback-card {
+    padding: 16px;
+    background-color: white;
+}
+
+.feedback-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.feedback-header {
+    display: flex;
+    height: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-mid {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-between;
+}
+
+.feedback-status {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.feedback-description {
+    color: #757575;
+}
+
+.feed-button
+{
+    height: 20%;
+    background-color: #EEFBF6;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #49C792;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}

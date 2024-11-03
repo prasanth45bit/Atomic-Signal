@@ -1,0 +1,21 @@
+.input-container {
+    text-align: left;
+    margin-bottom: 15px;
+    width: 95%;
+}
+
+.input-container label {
+    font-size: 14px;
+    color: #6a6a6a;
+    margin-bottom: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;   
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
